@@ -47,7 +47,7 @@ To adopt LLMs for time series analysis, three primary methods are employed: ***d
     - (Finance) ChatGPT Informed Graph Neural Network for Stock Movement Prediction [paper](https://arxiv.org/abs/2306.03763)
     - (Healthcare) Frozen Language Model Helps ECG Zero-Shot Learning [paper](https://arxiv.org/abs/2303.12311)
     - (Healthcare) Health system-scale language models are all-purpose prediction engines [paper](https://www.nature.com/articles/s41586-023-06160-y), [code](https://github.com/nyuolab/NYUTron)
-    - (Healthcare) 
+    - 
 * Imputation
 * Event Prediction
     - (General) Language Models Can Improve Event Prediction by Few-Shot Abductive Reasoning [paper](https://arxiv.org/abs/2305.16646) [code](https://github.com/iLampard/lamp)
@@ -56,7 +56,7 @@ To adopt LLMs for time series analysis, three primary methods are employed: ***d
 * Others
     - (General) One Fits All:Power General Time Series Analysis by Pretrained LM [paper](https://arxiv.org/abs/2302.11939) [code](https://github.com/DAMO-DI-ML/NeurIPS2023-One-Fits-All)
     - (General) TEST: Text Prototype Aligned Embedding to Activate LLM's Ability for Time Series [paper](https://arxiv.org/abs/2308.08241) [code](https://openreview.net/attachment?id=Tuh4nZVb0g&name=supplementary_material)
-    - 
+    - (Healthcare) Large Language Models are Few-Shot Health Learners [paper](https://arxiv.org/abs/2305.15525)
 
 
 
