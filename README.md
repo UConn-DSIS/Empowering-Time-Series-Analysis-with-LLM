@@ -91,8 +91,11 @@ To adopt LLMs for time series analysis, three primary methods are employed: ***d
 | <sub>[GATGPT, 2023](https://arxiv.org/abs/2311.14332) | <sub>ST</sub> | <sub>Traffic</sub> | <sub>Imputation</sub> | ✘ | ✔ | ✘ | ✔ | ✘ | <sub>GPT-2</sub> | <sub>✘</sub> |
 | <sub>[LA-GCN, 2023](https://arxiv.org/abs/2305.12398)</sub> | <sub>M-ST</sub> | <sub>Vision</sub> | <sub>Classification</sub> | ✘ | ✔ | ✘ | ✘ | ✔ | <sub>BERT</sub> | [✔](https://github.com/damNull/LAGCN) |
 
-
-
+## To be updated:
+- MobilityGPT: Enhanced Human Mobility Modeling with a GPT model [paper](https://arxiv.org/abs/2402.03264)
+- Exploring Large Language Models for Human Mobility Prediction under Public Events [paper](https://arxiv.org/abs/2311.17351)
+- Position Paper: What Can Large Language Models Tell Us about Time Series Analysis [paper](https://arxiv.org/abs/2402.02713)
+- UniTime: A Language-Empowered Unified Model for Cross-Domain Time Series Forecasting [paper](https://arxiv.org/pdf/2310.09751.pdf)
 
 
 ## Citation
