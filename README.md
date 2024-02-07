@@ -31,32 +31,37 @@ Our survey aims to answer the question based on a thorough overview of existing 
 To adopt LLMs for time series analysis, three primary methods are employed: ***direct querying of LLMs***, ***fine-tuning LLMs with tailored designs***, and ***incorporating LLMs into time series models as a means of feature enhancement (integration)***. Specifically, three key components can be leveraged to fine-tune LLMs, as shown in Figure 2: The input time series are first tokenized into embedding based on proper tokenization techniques, where proper prompts can be adopted to further enhance the time series representation. As such, LLMs can better comprehend prompt-enhanced time series embedding and be fine-tuned for downstream tasks, based on sophisticated strategies.
 
 ### Taxonomy via Task and Domain
-* Forecasting
+* **Forecasting**
     - (General) Time-LLM: Time Series Forecasting by Reprogramming Large Language Models [paper](https://arxiv.org/abs/2310.01728), [code](https://github.com/kimmeen/time-llm)
     - (General) TEMPO: Prompt-based Generative Pre-trained Transformer for Time Series Forecasting [paper](https://arxiv.org/abs/2310.04948)
     - (General) LLM4TS: Aligning Pre-Trained LLMs as Data-Efficient Time-Series Forecasters [paper](https://arxiv.org/abs/2308.08469)
     - (General) PromptCast: A New Prompt-based Learning Paradigm for Time Series Forecasting [paper](https://arxiv.org/abs/2210.08964), [code](https://github.com/HaoUNSW/PISA)
     - (General) Large Language Models Are Zero-Shot Time Series Forecasters [paper](https://arxiv.org/abs/2310.07820), [code](https://github.com/ngruver/llmtime)
     - (Finance) Temporal Data Meets LLM -- Explainable Financial Time Series Forecasting [paper](https://arxiv.org/abs/2306.11025), [dataset](https://github.com/ZihanChen1995/ChatGPT-GNN-StockPredict)
-    -  
-    - 
+    - (Mobility) Leveraging Language Foundation Models for Human Mobility Forecasting [paper](https://arxiv.org/abs/2209.05479), [code](https://github.com/cruiseresearchgroup/AuxMobLCast)
+    - (Mobility) Where Would I Go Next? Large Language Models as Human Mobility Predictors [paper](https://arxiv.org/abs/2308.15197), [code](https://github.com/xlwang233/LLM-Mob)
+    - (Traffic) Spatial-Temporal Large Language Model for Traffic Prediction [paper](https://arxiv.org/abs/2401.10134)
+ 
 
 
-* Classification
+* **Classification**
     - (Finance) The Wall Street Neophyte: A Zero-Shot Analysis of ChatGPT Over MultiModal Stock Movement Prediction Challenges
     - (Finance) ChatGPT Informed Graph Neural Network for Stock Movement Prediction [paper](https://arxiv.org/abs/2306.03763)
     - (Healthcare) Frozen Language Model Helps ECG Zero-Shot Learning [paper](https://arxiv.org/abs/2303.12311)
     - (Healthcare) Health system-scale language models are all-purpose prediction engines [paper](https://www.nature.com/articles/s41586-023-06160-y), [code](https://github.com/nyuolab/NYUTron)
-    - 
-* Imputation
-* Event Prediction
+    - (Vision) Language Knowledge-Assisted Representation Learning for Skeleton-Based Action Recognition [paper](https://arxiv.org/abs/2305.12398), [code](https://github.com/damNull/LAGCN)
+ 
+* **Imputation**
+    - (Traffic) GATGPT: A Pre-trained Large Language Model with Graph Attention Network for Spatiotemporal Imputation [paper](https://arxiv.org/abs/2311.14332)
+      
+* **Event Prediction**
     - (General) Language Models Can Improve Event Prediction by Few-Shot Abductive Reasoning [paper](https://arxiv.org/abs/2305.16646) [code](https://github.com/iLampard/lamp)
     - (General) Drafting Event Schemas using Language Models [papers](https://arxiv.org/abs/2305.14847)
   
-* Others
-    - (General) One Fits All:Power General Time Series Analysis by Pretrained LM [paper](https://arxiv.org/abs/2302.11939) [code](https://github.com/DAMO-DI-ML/NeurIPS2023-One-Fits-All)
-    - (General) TEST: Text Prototype Aligned Embedding to Activate LLM's Ability for Time Series [paper](https://arxiv.org/abs/2308.08241) [code](https://openreview.net/attachment?id=Tuh4nZVb0g&name=supplementary_material)
-    - (Healthcare) Large Language Models are Few-Shot Health Learners [paper](https://arxiv.org/abs/2305.15525)
+* **Multiple Tasks**
+    - ***Forecasting & Classification & Imputation & Anomaly Detection*** (General) One Fits All:Power General Time Series Analysis by Pretrained LM [paper](https://arxiv.org/abs/2302.11939) [code](https://github.com/DAMO-DI-ML/NeurIPS2023-One-Fits-All)
+    - ***Forecasting & Classification*** (General) TEST: Text Prototype Aligned Embedding to Activate LLM's Ability for Time Series [paper](https://arxiv.org/abs/2308.08241) [code](https://openreview.net/attachment?id=Tuh4nZVb0g&name=supplementary_material)
+    - ***Forecasting & Classification*** (Healthcare) Large Language Models are Few-Shot Health Learners [paper](https://arxiv.org/abs/2305.15525)
 
 
 
