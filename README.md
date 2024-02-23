@@ -96,6 +96,7 @@ To adopt LLMs for time series analysis, three primary methods are employed: ***d
 - Exploring Large Language Models for Human Mobility Prediction under Public Events [paper](https://arxiv.org/abs/2311.17351)
 - Position Paper: What Can Large Language Models Tell Us about Time Series Analysis [paper](https://arxiv.org/abs/2402.02713)
 - UniTime: A Language-Empowered Unified Model for Cross-Domain Time Series Forecasting [paper](https://arxiv.org/pdf/2310.09751.pdf)
+- Time Series Forecasting with LLMs: Understanding and Enhancing Model Capabilities [paper](https://arxiv.org/pdf/2402.10835.pdf)
 
 
 ## Citation
