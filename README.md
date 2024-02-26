@@ -98,6 +98,7 @@ To adopt LLMs for time series analysis, three primary methods are employed: ***d
 - UniTime: A Language-Empowered Unified Model for Cross-Domain Time Series Forecasting [paper](https://arxiv.org/pdf/2310.09751.pdf)
 - Time Series Forecasting with LLMs: Understanding and Enhancing Model Capabilities [paper](https://arxiv.org/pdf/2402.10835.pdf)
 - Multi-Patch Prediction: Adapting LLMs for Time Series Representation Learning [paper](https://arxiv.org/pdf/2402.04852.pdf)
+- Large Language Models for Spatial Trajectory Patterns Mining [paper](https://arxiv.org/pdf/2310.04942.pdf)
 
 ## Citation
 ```
