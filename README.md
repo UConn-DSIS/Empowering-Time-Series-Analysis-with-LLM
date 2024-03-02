@@ -92,13 +92,14 @@ To adopt LLMs for time series analysis, three primary methods are employed: ***d
 | <sub>[LA-GCN, 2023](https://arxiv.org/abs/2305.12398)</sub> | <sub>M-ST</sub> | <sub>Vision</sub> | <sub>Classification</sub> | ✘ | ✔ | ✘ | ✘ | ✔ | <sub>BERT</sub> | [✔](https://github.com/damNull/LAGCN) |
 
 ## To be updated:
-- MobilityGPT: Enhanced Human Mobility Modeling with a GPT model [paper](https://arxiv.org/abs/2402.03264)
-- Exploring Large Language Models for Human Mobility Prediction under Public Events [paper](https://arxiv.org/abs/2311.17351)
-- Position Paper: What Can Large Language Models Tell Us about Time Series Analysis [paper](https://arxiv.org/abs/2402.02713)
-- UniTime: A Language-Empowered Unified Model for Cross-Domain Time Series Forecasting [paper](https://arxiv.org/pdf/2310.09751.pdf)
-- Time Series Forecasting with LLMs: Understanding and Enhancing Model Capabilities [paper](https://arxiv.org/pdf/2402.10835.pdf)
-- Multi-Patch Prediction: Adapting LLMs for Time Series Representation Learning [paper](https://arxiv.org/pdf/2402.04852.pdf)
-- Large Language Models for Spatial Trajectory Patterns Mining [paper](https://arxiv.org/pdf/2310.04942.pdf)
+- (Mobility)MobilityGPT: Enhanced Human Mobility Modeling with a GPT model [paper](https://arxiv.org/abs/2402.03264)
+- (Mobility)Exploring Large Language Models for Human Mobility Prediction under Public Events [paper](https://arxiv.org/abs/2311.17351)
+- (Disucssion)Position Paper: What Can Large Language Models Tell Us about Time Series Analysis [paper](https://arxiv.org/abs/2402.02713)
+- (General)UniTime: A Language-Empowered Unified Model for Cross-Domain Time Series Forecasting [paper](https://arxiv.org/pdf/2310.09751.pdf)
+- (General)Time Series Forecasting with LLMs: Understanding and Enhancing Model Capabilities [paper](https://arxiv.org/pdf/2402.10835.pdf)
+- (General)Multi-Patch Prediction: Adapting LLMs for Time Series Representation Learning [paper](https://arxiv.org/pdf/2402.04852.pdf)
+- (General)Large Language Models for Spatial Trajectory Patterns Mining [paper](https://arxiv.org/pdf/2310.04942.pdf)
+-(General) LSTPrompt: Large Language Models as Zero-Shot Time Series Forecasters by Long-Short-Term Prompting [paper](https://arxiv.org/pdf/2402.16132.pdf)
 
 ## Citation
 ```
