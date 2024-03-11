@@ -100,6 +100,7 @@ To adopt LLMs for time series analysis, three primary methods are employed: ***d
 - (General) Multi-Patch Prediction: Adapting LLMs for Time Series Representation Learning [paper](https://arxiv.org/pdf/2402.04852.pdf)
 - (General) Large Language Models for Spatial Trajectory Patterns Mining [paper](https://arxiv.org/pdf/2310.04942.pdf)
 - (General) LSTPrompt: Large Language Models as Zero-Shot Time Series Forecasters by Long-Short-Term Prompting [paper](https://arxiv.org/pdf/2402.16132.pdf)
+- (General) AutoTimes: Autoregressive Time Series Forecasters via Large Language Models [paper](https://arxiv.org/abs/2402.02370) [code](https://github.com/thuml/AutoTimes)
 
 ## Citation
 ```
