@@ -101,7 +101,7 @@ To adopt LLMs for time series analysis, three primary methods are employed: ***d
 - (General) Large Language Models for Spatial Trajectory Patterns Mining [paper](https://arxiv.org/pdf/2310.04942.pdf)
 - (General) LSTPrompt: Large Language Models as Zero-Shot Time Series Forecasters by Long-Short-Term Prompting [paper](https://arxiv.org/pdf/2402.16132.pdf)
 - (General) AutoTimes: Autoregressive Time Series Forecasters via Large Language Models [paper](https://arxiv.org/abs/2402.02370) [code](https://github.com/thuml/AutoTimes)
-- (General) $S^2$IP-LLM: Semantic Space Informed Prompt Learning with LLM for Time Series Forecasting [paper](https://arxiv.org/pdf/2403.05798v1.pdf)
+- (General) S<sup>2</sup>IP-LLM: Semantic Space Informed Prompt Learning with LLM for Time Series Forecasting [paper](https://arxiv.org/pdf/2403.05798v1.pdf)
 
 ## Citation
 ```
