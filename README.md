@@ -92,17 +92,36 @@ To adopt LLMs for time series analysis, three primary methods are employed: ***d
 | <sub>[LA-GCN, 2023](https://arxiv.org/abs/2305.12398)</sub> | <sub>M-ST</sub> | <sub>Vision</sub> | <sub>Classification</sub> | ✘ | ✔ | ✘ | ✘ | ✔ | <sub>BERT</sub> | [✔](https://github.com/damNull/LAGCN) |
 
 ## To be updated:
+- (Disucssion) Position Paper: What Can Large Language Models Tell Us about Time Series Analysis [paper](https://arxiv.org/abs/2402.02713)
+- (General) UniTime: A Language-Empowered Unified Model for Cross-Domain Time Series Forecasting [paper](https://arxiv.org/abs/2310.09751)
+- (General) Time Series Forecasting with LLMs: Understanding and Enhancing Model Capabilities [paper](https://arxiv.org/abs/2402.10835)
+- (General) Multi-Patch Prediction: Adapting LLMs for Time Series Representation Learning [paper](https://arxiv.org/abs/2402.04852)
+- (General) Large Language Models for Spatial Trajectory Patterns Mining [paper](https://arxiv.org/pdf/2310.04942.pdf)
+- (General) LSTPrompt: Large Language Models as Zero-Shot Time Series Forecasters by Long-Short-Term Prompting [paper](https://arxiv.org/abs/2402.16132)
+- (General) AutoTimes: Autoregressive Time Series Forecasters via Large Language Models [paper](https://arxiv.org/abs/2402.02370) [code](https://github.com/thuml/AutoTimes)
+- (General) S<sup>2</sup>IP-LLM: Semantic Space Informed Prompt Learning with LLM for Time Series Forecasting [paper](https://arxiv.org/abs/2403.05798)
+- (General) GPT4MTS: Prompt-based Large Language Model for Multimodal Time-series Forecasting [paper](https://ojs.aaai.org/index.php/AAAI/article/view/30383)
+- (General) Chronos: Learning the Language of Time Series [paper](https://arxiv.org/abs/2403.07815) [code](https://github.com/amazon-science/chronos-forecasting)
+- (General) How Can Large Language Models Understand Spatial-Temporal Data? [paper](https://arxiv.org/abs/2401.14192)
+- (General) Large Language Model Guided Knowledge Distillation for Time Series Anomaly Detection [paper](https://arxiv.org/abs/2401.15123)
+- (General) Taming Pre-trained LLMs for Generalised Time Series Forecasting via Cross-modal Knowledge Distillation [paper](https://arxiv.org/abs/2403.07300) [code](https://github.com/Hank0626/LLaTA)
+- (General) K-Link: Knowledge-Link Graph from LLMs for Enhanced Representation Learning in Multivariate Time-Series Data (paper)[https://arxiv.org/abs/2403.03645]
 - (Mobility) MobilityGPT: Enhanced Human Mobility Modeling with a GPT model [paper](https://arxiv.org/abs/2402.03264)
 - (Mobility) Exploring Large Language Models for Human Mobility Prediction under Public Events [paper](https://arxiv.org/abs/2311.17351)
-- (Disucssion) Position Paper: What Can Large Language Models Tell Us about Time Series Analysis [paper](https://arxiv.org/abs/2402.02713)
-- (General) UniTime: A Language-Empowered Unified Model for Cross-Domain Time Series Forecasting [paper](https://arxiv.org/pdf/2310.09751.pdf)
-- (General) Time Series Forecasting with LLMs: Understanding and Enhancing Model Capabilities [paper](https://arxiv.org/pdf/2402.10835.pdf)
-- (General) Multi-Patch Prediction: Adapting LLMs for Time Series Representation Learning [paper](https://arxiv.org/pdf/2402.04852.pdf)
-- (General) Large Language Models for Spatial Trajectory Patterns Mining [paper](https://arxiv.org/pdf/2310.04942.pdf)
-- (General) LSTPrompt: Large Language Models as Zero-Shot Time Series Forecasters by Long-Short-Term Prompting [paper](https://arxiv.org/pdf/2402.16132.pdf)
-- (General) AutoTimes: Autoregressive Time Series Forecasters via Large Language Models [paper](https://arxiv.org/abs/2402.02370) [code](https://github.com/thuml/AutoTimes)
-- (General) S<sup>2</sup>IP-LLM: Semantic Space Informed Prompt Learning with LLM for Time Series Forecasting [paper](https://arxiv.org/pdf/2403.05798v1.pdf)
-- (General) GPT4MTS: Prompt-based Large Language Model for Multimodal Time-series Forecasting [paper](https://ojs.aaai.org/index.php/AAAI/article/view/30383)
+- (Sensing) Evaluating Large Language Models as Virtual Annotators for Time-series Physical Sensing Data [paper](https://arxiv.org/abs/2403.01133)
+- (Sensing) TENT: Connect Language Models with IoT Sensors for Zero-Shot Activity Recognition [paper](https://arxiv.org/abs/2311.08245)
+- (Sensing) GG-LLM: Geometrically Grounding Large Language Models for Zero-shot Human Activity Forecasting in Human-Aware Task Planning [paper](https://arxiv.org/abs/2310.20034)
+- (Sensing) Unleashing the Power of Shared Label Structures for Human Activity Recognition [paper](https://arxiv.org/abs/2301.03462)
+- (Healthcare)  JoLT: Jointly Learned Representations of Language and Time-Series [paper](https://openreview.net/pdf?id=UVF1AMBj9u)
+- (Healthcare) REALM: RAG-Driven Enhancement of Multimodal Electronic Health Records Analysis via Large Language Models [paper](https://arxiv.org/abs/2402.07016)
+- (Healthcare) Multimodal Pretraining of Medical Time Series and Notes [paper](https://arxiv.org/abs/2312.06855) [code](https://github.com/kingrc15/multimodal-clinical-pretraining)
+- (Traffic) Language-Guided Traffic Simulation via Scene-Level Diffusion [paper](https://arxiv.org/abs/2306.06344)
+- (Traffic) TPLLM: A Traffic Prediction Framework Based on Pretrained Large Language Models [paper](https://arxiv.org/abs/2403.02221)
+- (Energy) Utilizing Language Models for Energy Load Forecasting [paper](https://arxiv.org/abs/2310.17788) [code](https://github.com/xuehaouwa/LM-Load-Forecasting)
+- (Finance) Integrating Stock Features and Global Information via Large Language Models for Enhanced Stock Return Prediction [paper](https://arxiv.org/abs/2310.05627)
+
+
+
 
 ## Citation
 ```
