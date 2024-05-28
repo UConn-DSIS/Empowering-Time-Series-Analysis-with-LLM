@@ -107,6 +107,7 @@ To adopt LLMs for time series analysis, three primary methods are employed: ***d
 - (General) Taming Pre-trained LLMs for Generalised Time Series Forecasting via Cross-modal Knowledge Distillation [paper](https://arxiv.org/abs/2403.07300) [code](https://github.com/Hank0626/LLaTA)
 - (General) K-Link: Knowledge-Link Graph from LLMs for Enhanced Representation Learning in Multivariate Time-Series Data [paper](https://arxiv.org/abs/2403.03645)
 - (General) UrbanGPT: Spatio-Temporal Large Language Models [paper](https://arxiv.org/abs/2403.00813) [code](https://github.com/HKUDS/UrbanGPT)
+- (General) Large language models can be zero-shot anomaly detectors for time series? [paper](https://arxiv.org/abs/2405.14755) 
 - (Mobility) MobilityGPT: Enhanced Human Mobility Modeling with a GPT model [paper](https://arxiv.org/abs/2402.03264)
 - (Mobility) Exploring Large Language Models for Human Mobility Prediction under Public Events [paper](https://arxiv.org/abs/2311.17351)
 - (Sensing) Evaluating Large Language Models as Virtual Annotators for Time-series Physical Sensing Data [paper](https://arxiv.org/abs/2403.01133)
