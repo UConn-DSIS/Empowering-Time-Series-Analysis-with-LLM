@@ -40,7 +40,7 @@ To adopt LLMs for time series analysis, three primary methods are employed: ***d
     - (Finance) Temporal Data Meets LLM -- Explainable Financial Time Series Forecasting [paper](https://arxiv.org/abs/2306.11025), [dataset](https://github.com/ZihanChen1995/ChatGPT-GNN-StockPredict)
     - (Mobility) Leveraging Language Foundation Models for Human Mobility Forecasting [paper](https://arxiv.org/abs/2209.05479), [code](https://github.com/cruiseresearchgroup/AuxMobLCast)
     - (Mobility) Where Would I Go Next? Large Language Models as Human Mobility Predictors [paper](https://arxiv.org/abs/2308.15197), [code](https://github.com/xlwang233/LLM-Mob)
-    - (Traffic) Spatial-Temporal Large Language Model for Traffic Prediction [paper](https://arxiv.org/abs/2401.10134)
+    - (Traffic) Spatial-Temporal Large Language Model for Traffic Prediction [paper](https://arxiv.org/abs/2401.10134) [code](https://github.com/ChenxiLiu-HNU/ST-LLM)
  
 
 
