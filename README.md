@@ -37,6 +37,10 @@ To adopt LLMs for time series analysis, three primary methods are employed: ***d
     - (General) LLM4TS: Aligning Pre-Trained LLMs as Data-Efficient Time-Series Forecasters [paper](https://arxiv.org/abs/2308.08469)
     - (General) PromptCast: A New Prompt-based Learning Paradigm for Time Series Forecasting [paper](https://arxiv.org/abs/2210.08964), [code](https://github.com/HaoUNSW/PISA)
     - (General) Large Language Models Are Zero-Shot Time Series Forecasters [paper](https://arxiv.org/abs/2310.07820), [code](https://github.com/ngruver/llmtime)
+    - (General) GPT4MTS: Prompt-based Large Language Model for Multimodal Time-series Forecasting [paper](https://ojs.aaai.org/index.php/AAAI/article/view/30383)
+    - (General) Chronos: Learning the Language of Time Series [paper](https://arxiv.org/abs/2403.07815) [code](https://github.com/amazon-science/chronos-forecasting)
+    - (General) Multi-Patch Prediction: Adapting LLMs for Time Series Representation Learning [paper](https://arxiv.org/abs/2402.04852)
+    - (General) UniTime: A Language-Empowered Unified Model for Cross-Domain Time Series Forecasting [paper](https://arxiv.org/abs/2310.09751) [code](https://github.com/liuxu77/UniTime)
     - (Finance) Temporal Data Meets LLM -- Explainable Financial Time Series Forecasting [paper](https://arxiv.org/abs/2306.11025), [dataset](https://github.com/ZihanChen1995/ChatGPT-GNN-StockPredict)
     - (Mobility) Leveraging Language Foundation Models for Human Mobility Forecasting [paper](https://arxiv.org/abs/2209.05479), [code](https://github.com/cruiseresearchgroup/AuxMobLCast)
     - (Mobility) Where Would I Go Next? Large Language Models as Human Mobility Predictors [paper](https://arxiv.org/abs/2308.15197), [code](https://github.com/xlwang233/LLM-Mob)
@@ -66,7 +70,7 @@ To adopt LLMs for time series analysis, three primary methods are employed: ***d
 
 
 #### Table 1: Taxonomy of Time Series LLMs - Methdology, Task and Domain
-<sub>The data type **TS** denotes general time series, **ST** denotes spatial-temporal time series, the prefix **M-** indicates multi-modal inputs. ***Q*** denotes direct query the whole LLMs for output, ***T*** denotes the design of time series tokenization, ***P*** indicates the design of textual or parameterized time series prompts, ***FT*** indicates if the parameters of LLMs are updated (fine-tuned), ***I*** indicates if LLMs are integrated as part of the final model for downstream tasks. *Code availability is assessed on January 31st, 2024.* </sub> 
+<sub>The data type **TS** denotes general time series, **ST** denotes spatial-temporal time series, the prefix **M-** indicates multi-modal inputs. ***Q*** denotes direct query the whole LLMs for output, ***T*** denotes the design of time series tokenization, ***P*** indicates the design of textual or parameterized time series prompts, ***FT*** indicates if the parameters of LLMs are updated (fine-tuned), ***I*** indicates if LLMs are integrated as part of the final model for downstream tasks. *Code availability is assessed on May 20th, 2024.* </sub> 
 | <sub>**Method**</sub> | <sub> Data </sub> | <sub>Domain</sub> | <sub>Task</sub> | <sub>*Q*</sub> | <sub>*T*</sub> | <sub>*P*</sub> | <sub>*FT*</sub> | <sub>*I*</sub> | <sub>LLM</sub> | <sub>Code</sub> |
 |:--------:|:-----:|:--------:|:------:|:-------:|:-------:|:--------:|:-----------:|:---------:|:-----:|:---:|
 | <sub>[Time-LLM](https://arxiv.org/abs/2310.01728)<br/>(ICLR 2024)</sub> | <sub>M-TS</sub> | <sub>General</sub> | <sub>Forecasting</sub> | ✘ | ✔ | ✔ | ✔ | ✘ | <sub>LLaMA, GPT-2</sub> | [✔](https://github.com/kimmeen/time-llm)|
@@ -76,6 +80,10 @@ To adopt LLMs for time series analysis, three primary methods are employed: ***d
 | <sub>[LLM4TS, 2023](https://arxiv.org/abs/2308.08469)<br/></sub> | <sub>TS</sub> | <sub>General</sub> | <sub>Forecasting</sub> | ✘ | ✔ | ✘ | ✔ | ✘ | <sub>GPT-2</sub> | <sub>✘</sub> |
 | <sub>[PromptCast](https://arxiv.org/abs/2210.08964)<br/>(IEEE TKDE 2023)</sub> | <sub>TS</sub> | <sub>General</sub> | <sub>Forecasting</sub> | ✔ | ✘ | ✔ | ✘ | ✘ | <sub>Bart, BERT, etc.</sub> | [✔](https://github.com/HaoUNSW/PISA) |
 | <sub>[LLMTIME](https://arxiv.org/abs/2310.07820)<br/>(NeurIPS 2023)</sub> | <sub>TS</sub> | <sub>General</sub> | <sub>Forecasting</sub> | ✔ | ✔ | ✘ | ✘ | ✘ | <sub>GPT-3, LLaMA-2</sub> | [✔](https://github.com/ngruver/llmtime)</sub> |
+| <sub>[UniTime](https://arxiv.org/abs/2310.09751)<br/>(WWW 2024)</sub> | <sub>M-TS</sub> | <sub>General</sub> | <sub>Forecasting</sub> | ✘ | ✔ | ✔ | ✔ | ✔ | <sub>GPT-2</sub> | [✔](https://github.com/liuxu77/UniTime)</sub> |
+| <sub>[aLLM4TS](https://arxiv.org/abs/2402.04852)<br/>(ICML 2024)</sub> | <sub>TS</sub> | <sub>General</sub> | <sub>Multiple</sub> | ✘ | ✔ | ✘ | ✔ | ✘ | <sub>GPT-2</sub> | [✘] </sub> |
+| <sub>[GPT4MTS](https://ojs.aaai.org/index.php/AAAI/article/view/30383)<br/>(AAAI 2024)</sub> | <sub>M-TS</sub> | <sub>General</sub> | <sub>Forecasting</sub> | ✘ | ✔ | ✔ | ✔ | ✘ | <sub>GPT-2</sub> | [✘] </sub> |
+| <sub>[Chronos](https://arxiv.org/abs/2403.07815)<br/></sub> | <sub>TS</sub> | <sub>General</sub> | <sub>Forecasting</sub> | ✘ | ✔ | ✘ | ✔ | ✘ | <sub>GPT-2, T5</sub> | [✔](https://github.com/amazon-science/chronos-forecasting) </sub> |
 | <sub>[LAMP](https://arxiv.org/abs/2308.08241)<br/>(NeurIPS 2023)</sub> | <sub>TS</sub> | <sub>General</sub> | <sub>Event Prediction</sub> | ✔ | ✘ | ✔ | ✘ | ✔ | <sub>GPT-3 & 3.5,<br/> LLaMA-2</sub> | [✔](https://github.com/iLampard/lamp) |
 | <sub>[Gunjal *et al.*, 2023](https://arxiv.org/abs/2305.14847)</sub> | <sub>TS</sub> | <sub>General</sub> | <sub>Event Prediction</sub> | ✔ | ✘ | ✔ | ✘ | ✘ | <sub>GPT-3.5, Flan-T5, etc.</sub> | <sub>✘</sub> |
 | <sub>[Yu *et al.*, 2023](https://arxiv.org/abs/2306.11025)</sub>| <sub>M-TS</sub> | <sub>Finance</sub> | <sub>Forecasting</sub> | ✔ | ✘ | ✔ | ✔ | ✘ | <sub>GPT-4, Open-LLaMA</sub> | <sub>✘</sub> |  
@@ -87,21 +95,17 @@ To adopt LLMs for time series analysis, three primary methods are employed: ***d
 | <sub>[Liu *et al.*, 2023](https://arxiv.org/abs/2305.15525)</sub> | <sub>M-TS</sub> | <sub>Healthcare</sub> | <sub>Forecasting, Classification</sub> | ✔ | ✘ | ✔ | ✔ | ✘ | <sub>PaLM</sub> | <sub>✘</sub> |
 | <sub>[AuxMobLCast](https://arxiv.org/abs/2209.05479)<br/>(SIGSPATIAL 2022)</sub> | <sub>ST</sub> | <sub>Mobility</sub> | <sub>Forecasting</sub> | ✘ | ✘ | ✔ | ✔ | ✔ | <sub>BERT, RoBERTa,<br/> GPT-2, XLNet</sub> | [✔](https://github.com/cruiseresearchgroup/AuxMobLCast) |
 | <sub>[LLM-Mob, 2023](https://arxiv.org/abs/2308.15197)</sub> | <sub>ST</sub> | <sub>Mobility</sub> | <sub>Forecasting</sub> | ✔ | ✘ | ✔ | ✘ | ✘ | <sub>GPT-3.5</sub> | [✔](https://github.com/xlwang233/LLM-Mob) |
-| <sub>[ST-LLM, 2024](https://arxiv.org/abs/2401.10134)</sub> | <sub>ST</sub> | <sub>Traffic</sub> | <sub>Forecasting</sub> | ✘ | ✔ | ✘ | ✔ | ✘ | <sub>LLaMA, GPT-2</sub> | <sub>✘</sub> |
+| <sub>[ST-LLM, 2024](https://arxiv.org/abs/2401.10134)</sub> | <sub>ST</sub> | <sub>Traffic</sub> | <sub>Forecasting</sub> | ✘ | ✔ | ✘ | ✔ | ✘ | <sub>LLaMA, GPT-2</sub> | <sub>[✔](https://github.com/ChenxiLiu-HNU/ST-LLM)</sub> |
 | <sub>[GATGPT, 2023](https://arxiv.org/abs/2311.14332) | <sub>ST</sub> | <sub>Traffic</sub> | <sub>Imputation</sub> | ✘ | ✔ | ✘ | ✔ | ✘ | <sub>GPT-2</sub> | <sub>✘</sub> |
 | <sub>[LA-GCN, 2023](https://arxiv.org/abs/2305.12398)</sub> | <sub>M-ST</sub> | <sub>Vision</sub> | <sub>Classification</sub> | ✘ | ✔ | ✘ | ✘ | ✔ | <sub>BERT</sub> | [✔](https://github.com/damNull/LAGCN) |
 
 ## To be updated:
 - (Disucssion) Position Paper: What Can Large Language Models Tell Us about Time Series Analysis [paper](https://arxiv.org/abs/2402.02713)
-- (General) UniTime: A Language-Empowered Unified Model for Cross-Domain Time Series Forecasting [paper](https://arxiv.org/abs/2310.09751)
 - (General) Time Series Forecasting with LLMs: Understanding and Enhancing Model Capabilities [paper](https://arxiv.org/abs/2402.10835)
-- (General) Multi-Patch Prediction: Adapting LLMs for Time Series Representation Learning [paper](https://arxiv.org/abs/2402.04852)
 - (General) Large Language Models for Spatial Trajectory Patterns Mining [paper](https://arxiv.org/pdf/2310.04942.pdf)
 - (General) LSTPrompt: Large Language Models as Zero-Shot Time Series Forecasters by Long-Short-Term Prompting [paper](https://arxiv.org/abs/2402.16132)
 - (General) AutoTimes: Autoregressive Time Series Forecasters via Large Language Models [paper](https://arxiv.org/abs/2402.02370) [code](https://github.com/thuml/AutoTimes)
 - (General) S<sup>2</sup>IP-LLM: Semantic Space Informed Prompt Learning with LLM for Time Series Forecasting [paper](https://arxiv.org/abs/2403.05798)
-- (General) GPT4MTS: Prompt-based Large Language Model for Multimodal Time-series Forecasting [paper](https://ojs.aaai.org/index.php/AAAI/article/view/30383)
-- (General) Chronos: Learning the Language of Time Series [paper](https://arxiv.org/abs/2403.07815) [code](https://github.com/amazon-science/chronos-forecasting)
 - (General) How Can Large Language Models Understand Spatial-Temporal Data? [paper](https://arxiv.org/abs/2401.14192)
 - (General) Large Language Model Guided Knowledge Distillation for Time Series Anomaly Detection [paper](https://arxiv.org/abs/2401.15123)
 - (General) Taming Pre-trained LLMs for Generalised Time Series Forecasting via Cross-modal Knowledge Distillation [paper](https://arxiv.org/abs/2403.07300) [code](https://github.com/Hank0626/LLaTA)
@@ -121,6 +125,7 @@ To adopt LLMs for time series analysis, three primary methods are employed: ***d
 - (Traffic) TPLLM: A Traffic Prediction Framework Based on Pretrained Large Language Models [paper](https://arxiv.org/abs/2403.02221)
 - (Energy) Utilizing Language Models for Energy Load Forecasting [paper](https://arxiv.org/abs/2310.17788) [code](https://github.com/xuehaouwa/LM-Load-Forecasting)
 - (Finance) Integrating Stock Features and Global Information via Large Language Models for Enhanced Stock Return Prediction [paper](https://arxiv.org/abs/2310.05627)
+- (Finance) AlphaFin: Benchmarking Financial Analysis with Retrieval-Augmented Stock-Chain Framework [paper](https://arxiv.org/abs/2403.12582) [code](https://github.com/AlphaFin-proj/AlphaFin)
 
 
 
