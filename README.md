@@ -1,9 +1,5 @@
 # Empowering-Time-Series-Analysis-with-LLMs
-This is the official repository for "Empowering Time Series Analysis with Large Language Models: A Survey" ***(To appear in IJCAI-24 Survey Track)*** <br>
-
-This repository is activately maintained by [*Yushan Jiang*](https://sites.google.com/view/jayjiang/home) and [*Zijie Pan*](https://www.linkedin.com/in/zijiepan?challengeId=AQFIFj5C6TIkHAAAAYorMg7B2AeyTHiG6ydTY1x-UI5EGjLsdaZJ0Y0RBaUR2kYx6EBKy_P1l7xa7V_p3eK8ZimyqeIGOvx9BQ&submissionId=0dfe8771-9c89-7e17-1726-261b141fe852&challengeSource=AgGvUfroPpp0hQAAAYorMnRhqu49XriAlKHKecuhg1I-dD3E2L5TzP28ELScYzs&challegeType=AgF5kNYwhmhZKwAAAYorMnRkOD1dOFOY2SyQbE2noHz3ZcyHhGrPSL4&memberId=AgHccQ5LAWwXMgAAAYorMnRmgTbPDp6EVevD51vyoVhsjag&recognizeDevice=AgGWhR25_UZSqAAAAYorMnRphBUCqBMivCqoLXw_jveZM8Iu5Rn_) from ***UConn DSIS*** Group led by [*Dr. Dongjin Song*](https://songdj.github.io/#about). As this research topic has recently gained significant popularity, with new articles emerging daily, we will update our repository and survey regularly.
-
-If you find some ignored papers, **feel free to *create pull requests*, *open issues*, or *email* [*Yushan*](mailto:yushan.jiang@uconn.com) & [*Zijie*](mailto:zijie.pan@uconn.com)**. <br/> 
+This is the official repository for "Empowering Time Series Analysis with Large Language Models: A Survey" ***(IJCAI-24 Survey Track)*** <br>
 
 Please consider [citing](#citation) our survey paper if you find it helpful :), and feel free to share this repository with others! 
 
