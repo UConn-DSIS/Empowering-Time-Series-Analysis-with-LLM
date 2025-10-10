@@ -1,4 +1,4 @@
-# Empowering-Time-Series-Analysis-with-LLMs
+# [IJCAI 2024] Empowering-Time-Series-Analysis-with-LLMs
 This is the official repository for "Empowering Time Series Analysis with Large Language Models: A Survey" ***(IJCAI-24 Survey Track)*** <br>
 
 Please consider [citing](#citation) our survey paper if you find it helpful :), and feel free to share this repository with others! 
